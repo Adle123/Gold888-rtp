@@ -1,16 +1,8 @@
-'use client'; // This marks the file as a Client Component.
 
-import { useEffect } from 'react';
 import Image from 'next/image';
 
 export default function Home() {
-  useEffect(() => {
-    // Redirecting to the target URL
-    window.location.href = 'https://gold888rtp.pics';
-  }, []); // Empty dependency array ensures this runs only on mount
-return null;
-}
- /* return (
+ return (
     <main className="w-3/4 flex flex-col items-center gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute">
       <div className="flex items-center gap-[50px]">
         <Image
@@ -94,4 +86,4 @@ const Card = ({ title, width, body, href, icon }: CardProps) => {
       </a>
     </li>
   );
-}; */
+}; 
