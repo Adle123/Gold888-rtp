@@ -9,10 +9,10 @@ const nextConfig = {
     return [
       {
         source: '/:path*',
-        destination: 'https://gold888rtp.pics/:path*', // this is where content is being served
+        destination: 'https://gold888rtp.pics/:path*', // Proxy to this target URL
       },
-    ]
+    ];
   },
-}
+};
 
 module.exports = nextConfig;
