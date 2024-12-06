@@ -1,4 +1,4 @@
-'use client'; // Ensure this is a client component
+'use client'; // This ensures the component runs on the client-side
 
 import { useEffect } from 'react';
 
@@ -8,10 +8,11 @@ const Home = () => {
     window.location.href = 'https://gold888rtp.pics';
   }, []);
 
-  return null; // Don't render anything
+  return null; // Don't render anything, just redirect
 };
 
 export default Home;
+
 
 //import Image from 'next/image';
 //import { useEffect } from 'react';
