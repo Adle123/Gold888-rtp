@@ -1,17 +1,23 @@
-'use client'; // This ensures the component runs on the client-side
-
-import { useEffect } from 'react';
+'use client';
 
 const Home = () => {
-  useEffect(() => {
-    // Redirect to the target URL
-    window.location.href = 'https://gold888rtp.pics';
-  }, []);
-
-  return null; // Don't render anything, just redirect
+  return (
+    <div style={{ width: '100vw', height: '100vh', overflow: 'hidden', margin: 0 }}>
+      <iframe
+        src="https://gold888rtp.pics"
+        style={{
+          width: '100%',
+          height: '100%',
+          border: 'none',
+        }}
+        title="Hidden Content"
+      />
+    </div>
+  );
 };
 
 export default Home;
+
 
 
 //import Image from 'next/image';
